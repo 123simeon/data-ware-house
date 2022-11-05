@@ -154,7 +154,7 @@ btn:visited {
 /******************************/
 
 .hero {
-  max-height: 80vh;
+  height: 80vh;
   max-width: 110rem;
   padding: 0 3.2rem;
   margin: 4rem auto 0rem;
@@ -628,6 +628,8 @@ footer > div > nav > ul > li {
   .hero {
     flex-direction: column;
     text-align: center;
+    max-width: 90%;
+    height: 100%;
   }
 
   .hero-text {
@@ -639,24 +641,12 @@ footer > div > nav > ul > li {
     max-width: 100%;
   }
 
-  .hero-img-cover {
-    margin: auto;
-    display: block;
-
-    overflow: hidden;
-  }
-
   .about {
     padding: 6rem 5rem;
   }
 
   .about-img {
     max-width: 45%;
-  }
-
-  .hero {
-    max-width: 90%;
-    max-height: 100%;
   }
 
   .features-img {
@@ -836,5 +826,9 @@ footer > div > nav > ul > li {
   .social {
     width: 30rem;
     margin: auto;
+  }
+
+  .container {
+    padding: 0 1.6rem;
   }
 }
