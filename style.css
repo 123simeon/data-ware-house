@@ -154,7 +154,7 @@ btn:visited {
 /******************************/
 
 .hero {
-  height: 80vh;
+  max-height: 80vh;
   max-width: 110rem;
   padding: 0 3.2rem;
   margin: 4rem auto 0rem;
@@ -254,7 +254,7 @@ btn:visited {
 
 .item-description {
   font-size: 1.4rem;
-  width: 18rem;
+  max-width: 18rem;
   margin-top: 2rem;
 }
 
@@ -324,7 +324,7 @@ btn:visited {
 
 .slider {
   max-width: 100rem;
-  height: 50rem;
+  height: 55rem;
   margin: 0 auto;
   position: relative;
 
@@ -344,6 +344,7 @@ btn:visited {
 
   /* THIS creates the animation! */
   transition: transform 1s;
+  padding-top: 4rem;
 }
 
 .slider__btn {
@@ -655,6 +656,7 @@ footer > div > nav > ul > li {
 
   .hero {
     max-width: 90%;
+    max-height: 100%;
   }
 
   .features-img {
@@ -811,7 +813,28 @@ footer > div > nav > ul > li {
     gap: 2rem;
   }
 
+  .action-line {
+    max-width: 100vw;
+  }
+
   .footer-container {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-logo-name {
+    width: 30rem;
+    margin: auto;
+  }
+
+  address {
+    max-width: 30rem;
+    margin: auto;
+  }
+
+  .social {
+    width: 30rem;
+    margin: auto;
   }
 }
